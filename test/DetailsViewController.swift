@@ -28,7 +28,7 @@ class DetailsViewController: UIViewController, UpdateFormViewControllerProtocol 
     super.viewDidLoad()
     titleLabel.text = self.app?.name
     contentLabel.text = self.app?.description
-    appCover.image = UIImage(data: NSData(contentsOfURL: NSURL(string: self.app!.imageURL)))
+    appCover.image = UIImage(data: NSData(contentsOfURL: NSURL(string: self.app!.imageURL)!)!)
   }
   
   @IBAction func deleteButton(sender : AnyObject) {

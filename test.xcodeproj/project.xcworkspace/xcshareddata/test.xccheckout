@@ -12,22 +12,34 @@
 	<dict>
 		<key>4F389AB465D27F2DF82E780AA0978877BAAF2918</key>
 		<string>https://github.com/Gringox/swift_app.git</string>
+		<key>C2095DD8FCD1964EE86BB1402EC13B0916C176FB</key>
+		<string>https://github.com/Gringox/swift_app</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>test.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4F389AB465D27F2DF82E780AA0978877BAAF2918</key>
+		<string>../../../test</string>
+		<key>C2095DD8FCD1964EE86BB1402EC13B0916C176FB</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Gringox/swift_app.git</string>
+	<string>https://github.com/Gringox/swift_app</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4F389AB465D27F2DF82E780AA0978877BAAF2918</string>
+	<string>C2095DD8FCD1964EE86BB1402EC13B0916C176FB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2095DD8FCD1964EE86BB1402EC13B0916C176FB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift_app</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

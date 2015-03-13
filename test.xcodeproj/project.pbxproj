@@ -16,9 +16,9 @@
 		2C60BCBF19E779A30056F45D /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BCBE19E779A30056F45D /* testTests.swift */; };
 		2C98E6AF19EE3FC400B6ABEA /* NewAppFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98E6AE19EE3FC400B6ABEA /* NewAppFormViewController.swift */; };
 		2CBF54B919E9AA84004452E4 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF54B819E9AA84004452E4 /* APIController.swift */; };
-		2CBF54BB19E9B87E004452E4 /* Blank52.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF54BA19E9B87E004452E4 /* Blank52.png */; };
 		2CBF54C119E9CC53004452E4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF54C019E9CC53004452E4 /* DetailsViewController.swift */; };
 		2CC8A78D19EA2E0E00726A8D /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8A78C19EA2E0E00726A8D /* Apps.swift */; };
+		F357D76E1AB3809F00D9D995 /* Blank52.png in Resources */ = {isa = PBXBuildFile; fileRef = F357D76D1AB3809F00D9D995 /* Blank52.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +45,9 @@
 		2C60BCBE19E779A30056F45D /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
 		2C98E6AE19EE3FC400B6ABEA /* NewAppFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAppFormViewController.swift; sourceTree = "<group>"; };
 		2CBF54B819E9AA84004452E4 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
-		2CBF54BA19E9B87E004452E4 /* Blank52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blank52.png; path = ../../../Pictures/Blank52.png; sourceTree = "<group>"; };
 		2CBF54C019E9CC53004452E4 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		2CC8A78C19EA2E0E00726A8D /* Apps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
+		F357D76D1AB3809F00D9D995 /* Blank52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blank52.png; path = ../Blank52.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		2C60BC9A19E779A30056F45D = {
 			isa = PBXGroup;
 			children = (
-				2CBF54BA19E9B87E004452E4 /* Blank52.png */,
+				F357D76D1AB3809F00D9D995 /* Blank52.png */,
 				2C60BCA519E779A30056F45D /* test */,
 				2C60BCBB19E779A30056F45D /* testTests */,
 				2C60BCA419E779A30056F45D /* Products */,
@@ -211,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C60BCAE19E779A30056F45D /* Main.storyboard in Resources */,
-				2CBF54BB19E9B87E004452E4 /* Blank52.png in Resources */,
+				F357D76E1AB3809F00D9D995 /* Blank52.png in Resources */,
 				2C60BCB319E779A30056F45D /* LaunchScreen.xib in Resources */,
 				2C60BCB019E779A30056F45D /* Images.xcassets in Resources */,
 			);

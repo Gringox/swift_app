@@ -21,7 +21,7 @@ class APIController {
   }
   
   func makeGET(urlPath: String) {
-    let url: NSURL = NSURL(string: urlPath)
+    let url: NSURL = NSURL(string: urlPath)!
     let session = NSURLSession.sharedSession()
     let task = session.dataTaskWithURL(url, completionHandler: {data, response, error -> Void in
       if(error != nil) {
@@ -47,7 +47,7 @@ class APIController {
   }
   
   func makeDELETE(urlPath: String, id: Int){
-    let request = NSMutableURLRequest(URL: NSURL(string: urlPath))
+    let request = NSMutableURLRequest(URL: NSURL(string: urlPath)!)
     let session = NSURLSession.sharedSession()
     
     request.HTTPMethod = "DELETE"
@@ -68,7 +68,7 @@ class APIController {
   }
   
   func makePUT(urlPath: String, params : Dictionary<String, String>) {
-    let request = NSMutableURLRequest(URL: NSURL(string: urlPath))
+    let request = NSMutableURLRequest(URL: NSURL(string: urlPath)!)
     let session = NSURLSession.sharedSession()
     
     request.HTTPMethod = "PUT"
@@ -99,7 +99,7 @@ class APIController {
   }
   
   func makePOST (urlPath: String, params : Dictionary<String, String>) {
-    let request = NSMutableURLRequest(URL: NSURL(string: urlPath))
+    let request = NSMutableURLRequest(URL: NSURL(string: urlPath)!)
     let session = NSURLSession.sharedSession()
     
     request.HTTPMethod = "POST"
